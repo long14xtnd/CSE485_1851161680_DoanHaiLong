@@ -1,0 +1,334 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-seri
+}
+/* Top-link */
+.top-link ul {
+    padding-top: 6px;
+    padding-bottom: 6px;
+    margin-bottom: 0;
+}
+.top-link ul li {
+    padding: 0 0 0 10px;
+}
+.top-link ul li, .top-link ul li a {
+    color: #fff;
+    font-size: 18px;
+}
+.top-link ul li a:hover{
+    color: red;
+}
+/* end top-link*/
+ul.main-menu li{
+    margin-left: 11px;
+}
+ul.main-menu li a{
+    display: block;
+    padding: 5px 20px;
+    font-size: 16px;
+    font-weight: 400;
+    /* color: #000; */
+}
+.main-menu > li.active > a {
+    color: #242221 !important;
+}
+.main-menu > li.active > a {
+    background: #242221;
+    color: #e3c383 !important;
+}
+.main-menu > li a:hover {
+    color: #000 ;
+}
+.sub-menu.introduce{
+    width: 700px;
+}
+.sub-menu.introduce a{
+    display: block;
+    text-decoration: none;
+    color: gray;
+}
+.sub-menu.introduce a:hover{
+    display: block;
+    text-decoration: none;
+    color: #000 !important;
+}
+.sub-menu.menu{
+    width: 700px;
+}
+.sub-menu.menu a{
+    display: inline-block;
+    text-decoration: none;
+    color: gray;
+    padding: 5px 10px;
+}
+.sub-menu.news{
+    width: 400px;
+}
+.sub-menu.news a{
+    display:block;
+    text-decoration: none;
+    color: gray;
+    padding: 6px 20px;
+}
+.sub-menu.cards{
+    width: 400px;
+    
+}
+.sub-menu.cards a{
+   
+    text-decoration: none;
+    color: gray;
+    padding: 6px 20px;
+}
+/* end header */
+/* how-to-buy */
+.title-1{
+    font-size: 36px;
+    margin: 30px 0;
+    display: inline-block;
+    padding: 20px 40px;
+    border-bottom: 1px solid;
+    border-top: 1px solid;
+    position: relative;
+    margin-bottom: 50px;
+    text-align: center!important;
+    text-transform: uppercase;
+}
+.title-1:before, .title-1:after {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #e3c383;
+    position: absolute;
+    top: 35px;
+    content: "";
+}
+.title-1:before {
+    left: 10px;
+}
+.title-1::after {
+    right: 10px;
+}
+.how-to-buy ul li {
+    font-size: 24px;
+    text-align: center;
+    vertical-align: middle;
+}
+.how-to-buy ul li img {
+    max-width: 100%;
+}
+img {
+    vertical-align: middle;
+    border-style: none;
+}
+.title-1:before, .title-1:after {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #e3c383;
+    position: absolute;
+    top: 35px;
+    content: "";
+}
+.title-1:before {
+    left: 10px;
+}
+.title-1::after {
+    right: 10px;
+}
+/* end how-to-buy */
+/* News */
+#news {
+    text-align: center;
+     padding-bottom: 60px;
+      padding-top: 40px
+    }
+#news .post {
+     text-align: left
+    }
+#news .post h4 {
+    line-height:30px; 
+    font-weight: 600;
+     color: #000
+    }
+#news .post .time {
+    margin: 10px 0;
+     font-size: 14px;
+      color: #999; 
+      display: block
+    }
+#news .post a{
+    text-decoration: none;
+    color: #242221;
+}
+#news .post a:hover{
+    color: #e3c383 !important;
+}
+#news .post a.btn {
+    float:right; 
+    text-transform: uppercase;
+    color: #fff;
+}
+#news .post img {
+    max-width: 100%
+}
+/* our brand */
+.our-brand {
+    text-align: center;
+     padding-bottom: 60px; 
+     padding-top: 40px;
+      position: relative
+    }
+.our-brand:before {
+    content: "";
+    background: url('images/step-figure.png') no-repeat top center;
+    position: absolute;
+    top: 230px;
+    bottom: 0;
+    width: 500px;
+    background-size: contain;
+    margin-left: 140px;
+}
+.our-brand .col-md-9 {
+    padding: 0
+}
+.our-brand .col-md-6 {
+    position:relative;
+    padding: 20px 20px 20px 0;
+    text-align: left;
+}
+.our-brand  ul li {
+    list-style: none;
+}
+.our-brand .col-md-6 h4 {
+    font-weight: 300;
+    font-size: 36px;
+    margin-bottom: 0;
+}
+.our-brand .col-md-6 p {
+    font-size: 18px; 
+    line-height: 30px
+}
+.our-brand .stt {
+    font-size: 200px;
+    color:#d4c0a5;
+    position: absolute;
+    line-height: 150px;
+    font-weight: 300;
+}
+.our-brand .d-inline-block {
+    padding-left: 120px;
+}
+/* tuyen dung */
+.our-story, .career {
+    background:#d4c0a5
+}
+.two-slide {
+    width:100%;
+     float: left
+    }
+.two-slide-txt {
+    padding: 40px 90px;
+}
+
+.two-slide-txt h4, .two-slide-txt h4 a {
+    text-decoration: none;
+    color:#fff!important; 
+    font-size: 40px
+    /* text-decoration: none; */
+    
+}
+.see-more:hover{
+    color: #e3c383 !important;
+}
+.two-slide-txt p {
+    color:#000;
+     font-style: italic; 
+     line-height: 30px; 
+     font-size: 20px; 
+     margin: 20px 0 30px;
+    }
+.two-slide-txt a.btn { 
+    text-transform: uppercase
+}
+#our-story, #career {width: 100%}
+
+.two-slide .carousel-indicators {
+    margin-right: 0;
+    margin-left: -70px;
+    right: inherit;
+    left: 60%;
+}
+.two-slide .carousel-indicators li {
+    width:10px; 
+    height: 10px; 
+    border-radius: 50%;
+}
+
+.career .two-slide-txt {
+    float: left !important;
+}
+.career .two-slide .carousel-item img {
+    float: right !important;
+}
+
+.career .two-slide .carousel-indicators {
+    margin-left: 0;
+    margin-right: -70px;
+    left: inherit;
+    right: 50%;
+}
+/* #footer */
+
+#footer {
+    color:#fff; 
+    padding: 40px 20px 30px; 
+    margin-top: 60px;
+     text-align: center
+    }
+#footer ul li {list-style: none;}
+#footer ul li a {
+    color:rgba(255,255,255,.50);
+     margin-top: 10px;
+      display: block;
+      text-decoration: none;
+    }
+#footer ul li a:hover{    color: #e3c383 !important;}
+#footer .col-md-9 .col-md-3 {display: none}
+#footer .col-md-9 .col-md-3.social {display: block; margin-bottom: 40px}
+#footer .social li {display: inline-block; margin-left: 15px}
+#footer .social li a {
+    margin-top: 0;
+text-decoration: none;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+  }
+/* #footer */
+#footer {
+    color:#fff; 
+    padding: 40px 20px 30px; 
+    margin-top: 60px;
+     text-align: center
+    }
+#footer ul li a {
+    color:rgba(255,255,255,.50);
+     margin-top: 10px; display: block
+    }
+#footer .col-md-9 .col-md-3 {
+    display: none
+}
+#footer .col-md-9 .col-md-3.social {
+    display: block; 
+    margin-bottom: 40px
+}
+#footer .social li {display: inline-block; margin-left: 15px}
+#footer .social li a {margin-top: 0;}
