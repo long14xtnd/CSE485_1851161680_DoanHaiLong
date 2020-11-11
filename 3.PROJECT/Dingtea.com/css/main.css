@@ -183,7 +183,7 @@ img {
     }
 .our-brand:before {
     content: "";
-    background: url('images/step-figure.png') no-repeat top center;
+    background: url('../images/step-figure.png') no-repeat top center;
     position: absolute;
     top: 230px;
     bottom: 0;

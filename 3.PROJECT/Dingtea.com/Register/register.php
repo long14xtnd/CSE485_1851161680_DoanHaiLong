@@ -76,7 +76,7 @@
            $q = " INSERT INTO `list_users`(`fullname`,`username`, `password`,`email`,`phone_number`) VALUES ( '$fullname','$username', '$password','$email','$phone_number' )";
 
     $query = mysqli_query($conn,$q);
-    header('location:dingtea-admin.php');
+    // header('location:dingtea-admin.php');
            
             }
     }
