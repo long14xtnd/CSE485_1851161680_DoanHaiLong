@@ -1,0 +1,134 @@
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+body {
+    background: #fff;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+}
+.col-md-12 {
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+.box-download-app {
+    background: #e3c383;
+    margin: 20px 0 30px;
+}
+body {
+    background: #fff;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+}
+.box-download-app .d-inline-block {
+    vertical-align: top;
+}
+.d-inline-block {
+    display: inline-block!important;
+}
+.box-download-app-ct {
+    width: 46%;
+}
+.box-download-app-ct {
+    padding: 0px 50px 30px;
+    display: inline-block;
+    margin-left: -3px;
+}
+a {
+    text-decoration: none;
+    color: #242221;
+}
+ul li, ol li {
+    list-style: none;
+}
+a:hover{
+    text-decoration: none;
+    list-style: none;
+    color:#ffc107
+}
+.breadcrumb-item + .breadcrumb-item::before {
+    display: inline-block;
+    padding-right: 0.5rem;
+    color: #6c757d;
+    content: "/";
+}
+.title-1 {
+    font-size: 36px;
+    margin: 30px 0;
+    display: inline-block;
+    padding: 20px 40px;
+    border-bottom: 1px solid;
+    border-top: 1px solid;
+    position: relative;
+    margin-bottom: 50px;
+    text-align: center!important;
+    text-transform: uppercase;
+}
+.main-title {
+    text-align: center;
+}
+.col-md-6 {
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+.media {
+    margin-top: 30px;
+    border-bottom: 1px solid #cebea5;
+    padding-bottom: 30px;
+}
+.best-seller .media .media-left {
+    width: 220px;
+    height: 220px;
+    text-align: center;
+    background: #eee;
+    margin-right: 20px;
+}
+.media .media-left {
+    margin-right: 15px;
+}
+.best-seller .media .media-left img {
+    max-height: 170px;
+    margin-top: 20px;
+}
+.content img {
+    max-width: 100%;
+}
+img {
+    vertical-align: middle;
+    border-style: none;
+}
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+.best-seller .media-body ul li span {
+    display: inline-block;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    color: #e3c383;
+    font-weight: 300;
+    background: #242221;
+    text-align: center;
+    line-height: 36px;
+    vertical-align: middle;
+    margin-right: 15px;
+}
+.best-seller .media-body ul {
+    padding: 0;
+    margin: 0;
+}
+.best-seller .media-body ul:before {
+    content: "";
+    width: 36px;
+    height: 2px;
+    background: #e3c383;
+    display: block;
+    margin: 40px 0 20px;
+}
+.content {
+    font-size: 15px;
+    line-height: 24px;
+}

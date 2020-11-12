@@ -1,0 +1,121 @@
+a {
+    text-decoration: none;
+    color: #242221;
+}
+ul li, ol li {
+    list-style: none;
+}
+a:hover{
+    text-decoration: none;
+    list-style: none;
+    color:#ffc107
+}
+.breadcrumb-item + .breadcrumb-item::before {
+    display: inline-block;
+    padding-right: 0.5rem;
+    color: #6c757d;
+    content: "/";
+}
+.title-news-list {
+    font-weight: 600;
+    margin-top: 20px;
+}
+.filter-tab ul {
+    border-bottom: 1px solid #cebea5;
+    margin-left: 0;
+}
+.content ul {
+    margin-bottom: 30px;
+}
+ul {
+    padding: 0;
+}
+dl, ol, ul {
+    margin-top: 0;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+.content {
+    font-size: 15px;
+    line-height: 24px;
+}
+.filter-tab ul li.active, .filter-tab ul li:hover {
+    background: #242221;
+}
+.filter-tab ul li {
+    display: inline-block;
+    padding: 8px 20px;
+    font-size: 16px;
+    margin-bottom: 0;
+}
+.content ul li {
+    list-style: disc;
+}
+.filter-tab ul li.active a, .filter-tab ul li:hover a {
+    color: #cebea5 !important;
+} */
+.filter-tab ul li {
+    display: inline-block;
+    padding: 8px 20px;
+    font-size: 16px;
+    margin-bottom: 0;
+    background: #e8ddcb;
+}
+ .media {
+    margin-top: 30px;
+    border-bottom: 1px solid #cebea5;
+    padding-bottom: 30px;
+}
+.media {
+    display: flex;
+    align-items: flex-start;
+}
+.media .media-left {
+    margin-right: 15px;
+}
+.media .media-left a {
+    width: 250px;
+    display: inline-block;
+    margin: 0px 10px 0 0;
+}
+a {
+    color: #242221;
+}
+.media .media-left a img {
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+.content img {
+    max-width: 100%;
+}
+img {
+    vertical-align: middle;
+    border-style: none;
+}
+.media .media-body h4 {
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: -5px;
+    line-height: 26px;
+}
+.time {
+    color: #878787;
+    display: block;
+    margin: 6px 0 10px;
+    font-weight: 500;
+    font-style: italic;
+    font-size: 15px;
+}
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+.h5, h5 {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
