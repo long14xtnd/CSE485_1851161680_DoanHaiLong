@@ -8,7 +8,6 @@
     require 'config.php';
    require '../include/validation.php';//gọi file vào để làm việc
     if(isset($_POST['btn_reg'])){
-      $id = $_GET['id'];
 
         $error = array(); //Phất cờ
         #chuẩn hóa fullname
@@ -73,12 +72,12 @@
         }
         //Kết luận
         if (empty($error)) {
-          //  echo "Đăng ký thành công!";
-          $q = " update list_users set id=$id,fullname='$fullname', username='$username', password='$password',email='$email',phone_number='$phone_number' where id=$id  ";
+           echo "Đăng ký thành công!";
+           $q = " INSERT INTO `list_users`(`fullname`,`username`, `password`,`email`,`phone_number`) VALUES ( '$fullname','$username', '$password','$email','$phone_number' )";
 
- $query = mysqli_query($conn,$q);
-
- header('location:dingtea-admin.php');
+    $query = mysqli_query($conn,$q);
+    header('index.php');
+           
             }
     }
 ?>
@@ -406,7 +405,7 @@
                             <label for="phone_number">Số điện thoại</label><br>
                             <input type="text" name="phone_number" id="phone_number" value="<?php echo set_value('phone_number'); ?>" ><br><br>
                             <?php echo form_error('phone_number'); ?>
-                            <button class="btn btn-outline-primary" type="submit" name="btn_reg">Cập nhật</button>
+                            <button class="btn btn-outline-primary" type="submit" name="btn_reg">Đăng ký</button>
                          
         </form>
                         

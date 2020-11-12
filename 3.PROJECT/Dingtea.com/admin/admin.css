@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: sans-serif;
+}
+#header{
+    background: #E8DDCB;
+}
+#header img {
+    vertical-align: middle;
+    border-style: none;
+    width: 100px;
+    height: auto;
+}
+#header li a{
+    color: #212529;
+}
+.left-sidebar{
+    background: #FBDBAC;
+    height: 1024px;
+}
+.left-sidebar ul {
+    list-style: none;
+    padding-left: 0px;
+}
+.left-sidebar ul li{
+    padding: 10px 50px;
+    border-bottom: 1px solid;
+}
+a.add-user{
+    display: inline-block;
+    float: right;
+    background: #51A9FF;
+    text-decoration: none;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}

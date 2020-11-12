@@ -43,6 +43,7 @@ session_start();
        
        
         //Kết luận
+    
         if (empty($error)) {
             $data = array(
                 'is_username'=>'long14xtnd',
@@ -57,7 +58,9 @@ session_start();
                 $_SESSION['user_login']='unitop';
                 header("location:index.php");
             }else{
-                echo "Thông tin tài khoản hoặc mật khẩu ko tồn tại trên hệ thống";
+               $error['account']="Thông tin tài khoản hoặc mật khẩu không tồn tại trên hệ thống";
+               
+                // echo "Thông tin tài khoản hoặc mật khẩu ko tồn tại trên hệ thống";
             }
         }
     }
@@ -71,6 +74,21 @@ session_start();
     <style>
         p{
             color:red;
+            }
+        p.error{
+            border: 1px #FF0000 solid;
+            background: #FFF8EC;
+            color: #000;
+            font-size: 13px;
+            padding: 10px 20px;
+            margin-bottom: 15px;
+            line-height: 18px;
+
+        }
+        a.reg{
+            text-align: center;
+        display: block;
+        margin-top: 10px;   
         }
     </style>
     <a href="" id="logo">
@@ -78,16 +96,24 @@ session_start();
     </a>
     <div class="main">
     <h1>Đăng nhập</h1>
+     
         <form action="" method="POST" class="form-login" >
-        
-      
+       
+        <?php if(!empty($error['account'])){
+            ?>
+            <p class="error"><?php echo $error['account']; ?></p>
+            <?php
+        } 
+        ?>
         <input type="text" name="username" id="username" placeholder="Tên đăng nhập" value="<?php echo set_value('username');  ?>"><br>
         <?php echo form_error('username'); ?>
       
         <input type="password" name="password" placeholder="Mật khẩu" id="password"><br>
         <?php echo form_error('password'); ?>
+        
        
         <input type="submit" name="btn_login" value="Đăng nhập" class="btn" style="display:block;">
+        <a href="register.php" class="reg">Đăng ký</a>
         </form>
     </div>
    

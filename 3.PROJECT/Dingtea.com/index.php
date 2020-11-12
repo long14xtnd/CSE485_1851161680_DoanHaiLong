@@ -228,7 +228,7 @@
                                                 <div class="container">
                                                     <div class="row">
                                                         <div class="col-md-9 ">
-                                                            <a href="Register/register.php" class="title "><strong>Đăng ký/Đăng
+                                                            <a href="admin/register.php" class="title "><strong>Đăng ký/Đăng
                                                                     nhập tài khoản</strong> </a>
 
 
