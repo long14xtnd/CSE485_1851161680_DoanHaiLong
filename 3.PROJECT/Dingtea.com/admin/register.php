@@ -165,7 +165,7 @@
                                             <a href="../index.php" class="nav-link text-uppercase ">Trang chủ</a>
                                         </li>
                                         <li class="nav-item dropdown">
-                                            <a href="" class="nav-link text-uppercase " data-toggle="dropdown">Giới
+                                            <a href="../trang con/gioithieudingtea.html" class="nav-link text-uppercase " data-toggle="dropdown">Giới
                                                 thiệu</a>
                                             <div class="sub-menu dropdown-menu introduce">
                                                 <div class="container">
@@ -173,7 +173,7 @@
                                                         <div class="col-md-9">
                                                             <div class="row">
                                                                 <div class="col-md-4">
-                                                                    <a href="https://dingtea.vn/ve-dingtea-vietnam"><strong>Giới
+                                                                    <a href="../trang con/gioithieudingtea.html"><strong>Giới
                                                                             thiệu Ding Tea</strong></a>
 
                                                                 </div>
@@ -236,7 +236,7 @@
                                             </div>
                                         </li>
                                         <li class="nav-item dropdown">
-                                            <a href="" class="nav-link text-uppercase " data-toggle="dropdown">Thực
+                                            <a href="../trang con/thucdon.html" class="nav-link text-uppercase " data-toggle="dropdown">Thực
                                                 đơn</a>
                                             <div class="sub-menu dropdown-menu menu">
                                                 <div class="container">
@@ -245,7 +245,7 @@
                                                             <div class="row">
                                                                 <div class="col-md-4">
                                                                     <a
-                                                                        href="https://dingtea.vn/thuc-don"><strong>Menu</strong></a>
+                                                                        href="../trang con/thucdon.html"><strong>Menu</strong></a>
                                                                     <a href="https://dingtea.vn/thuc-don"><i
                                                                             class="fas fa-angle-right"></i> Trà Trái
                                                                         Cây</a>
@@ -280,10 +280,10 @@
                                                                         Nóng</a>
                                                                 </div>
                                                                 <div class="col-md-4">
-                                                                    <a href="https://dingtea.vn/menu-bestseller"><strong>Best
+                                                                    <a href="../trang con/bestseller.html"><strong>Best
                                                                             seller</strong>
                                                                     </a>
-                                                                    <a href="https://dingtea.vn/menu-bestseller"><i
+                                                                    <a href="../trang con/bestseller.html"><i
                                                                             class="fas fa-angle-right"></i> List 6 sản
                                                                         phẩm
                                                                         ưa chuộng nhất</a>
@@ -296,10 +296,10 @@
                                                 </div>
                                         </li>
                                         <li class="nav-item ">
-                                            <a href="" class="nav-link text-uppercase">Tìm cửa hàng</a>
+                                            <a href="../subpage/findstore.php" class="nav-link text-uppercase">Tìm cửa hàng</a>
                                         </li>
                                         <li class="nav-item dropdown">
-                                            <a href="" class="nav-link text-uppercase " data-toggle="dropdown">Tin
+                                            <a href="../trang con/tintuc.html" class="nav-link text-uppercase " data-toggle="dropdown">Tin
                                                 tức</a>
                                             <div class="sub-menu dropdown-menu news">
                                                 <div class="container">
@@ -307,7 +307,7 @@
                                                         <div class="col-md-9">
                                                             <div class="row ">
                                                                 <div class="col-md-4">
-                                                                    <a href="" class="title"><strong>Tin mới
+                                                                    <a href="../trang con/tintuc.html" class="title"><strong>Tin mới
                                                                             nhất</strong></a>
                                                                     <a href="" class="title"><i
                                                                             class="fas fa-angle-right"></i>Sự kiện

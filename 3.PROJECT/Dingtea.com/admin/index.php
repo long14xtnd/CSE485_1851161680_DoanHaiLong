@@ -38,7 +38,7 @@ if(!isset($_SESSION['is_login'])){
           <div class="row">
             <div class="col-md-12 ">
             <nav class="navbar   navbar-expand-xl">
-                    <a href="" class="navbar-brand">
+                    <a href="../index.php" class="navbar-brand">
                       <img src="../images/logo.png" alt="" >
                     </a>
                     <button class="navbar-toggler" data-toggle="collapse" data-target="#main-nav">
@@ -47,7 +47,7 @@ if(!isset($_SESSION['is_login'])){
                     <div class="collapse navbar-collapse " id="main-nav">
                       <ul class="navbar-nav ml-auto">
                         <li class="nav-item">
-                          <a href="" class="nav-link">Trang chủ</a>
+                          <a href="../index.php" class="nav-link">Trang chủ</a>
                         </li>
                         <li class="nav-item  dropdown">
                           <a href="" class="nav-link" data-toggle="dropdown"> <i class="fa fa-user mr-1"></i>Đoàn Hải Long</a>
@@ -81,6 +81,7 @@ if(!isset($_SESSION['is_login'])){
                 <div class="col-md-8">
                   
                 <a href="register.php" class="add-user">+Add new Employee</a>
+                <h4>Danh sách khách hàng đăng ký thẻ thành viên</h1>
  <table  id="tabledata" class=" table table-striped table-hover table-bordered table-sm">
  
  <tr class="bg-dark text-white text-center">

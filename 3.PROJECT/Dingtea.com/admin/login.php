@@ -46,22 +46,32 @@ session_start();
     
         if (empty($error)) {
             $data = array(
-                'is_username'=>'long14xtnd',
+                1=>array(
+                    'is_username'=>'long14xtnd',
               
-                'is_password'=>'Long12345'
+                     'is_password'=>'Long12345'
+                ),
+                2=>array(
+                    'is_username'=>'hiuu1209',
+              
+                     'is_password'=>'Hiuu1209'
+                )
                
             );
            
             // show_array($info);
-            if(($username == $data['is_username']) && ($password == $data['is_password'])){
-                $_SESSION['is_login']=true;
-                $_SESSION['user_login']='unitop';
-                header("location:index.php");
-            }else{
-               $error['account']="Thông tin tài khoản hoặc mật khẩu không tồn tại trên hệ thống";
-               
-                // echo "Thông tin tài khoản hoặc mật khẩu ko tồn tại trên hệ thống";
+            foreach($data as $info){
+                if(($username == $info['is_username']) && ($password == $info['is_password'])){
+                    $_SESSION['is_login']=true;
+                    $_SESSION['user_login']='unitop';
+                    header("location:index.php");
+                }else{
+                   $error['account']="Thông tin tài khoản hoặc mật khẩu không tồn tại trên hệ thống";
+                   
+                    // echo "Thông tin tài khoản hoặc mật khẩu ko tồn tại trên hệ thống";
+                }
             }
+            
         }
     }
 ?>

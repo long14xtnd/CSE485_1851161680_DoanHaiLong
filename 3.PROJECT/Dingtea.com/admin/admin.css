@@ -6,7 +6,7 @@ body{
     font-family: sans-serif;
 }
 #header{
-    background: #E8DDCB;
+    background: #4693B8;
 }
 #header img {
     vertical-align: middle;
@@ -18,7 +18,7 @@ body{
     color: #212529;
 }
 .left-sidebar{
-    background: #FBDBAC;
+    background: #3E5C6A;
     height: 1024px;
 }
 .left-sidebar ul {
